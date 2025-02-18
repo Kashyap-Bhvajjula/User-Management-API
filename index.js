@@ -9,7 +9,7 @@ const cors = require("cors"); // Import the cors module
 
 // To allow only specific domains (more restrictive)
 app.use(cors({
-  origin: 'https://user-management-5vbzm9m0s-kashyaps-projects-dfb04cbe.vercel.app/',
+  origin: 'https://user-management-gxonl1qxo-kashyaps-projects-dfb04cbe.vercel.app/',
   methods: ["GET","POST","PUT","DELETE"],
   credentials: true
 }));
