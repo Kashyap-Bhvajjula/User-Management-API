@@ -1,0 +1,11 @@
+1. Initialise npm -> npm init -y
+
+2. Install express -> npm i express
+
+3. Installing nodemon -> npm i nodemon
+
+4. Installing mongodb -> npm install mongodb
+
+5. Installing mongoose -> npm install mongoose
+
+6. Installing cors for accepting data from frontend -> npm install cors
