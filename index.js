@@ -9,7 +9,7 @@ const cors = require("cors"); // Import the cors module
 
 // To allow only specific domains (more restrictive)
 app.use(cors({
-  origin: 'https://user-management-henna-one.vercel.app/',
+  origin: 'https://user-management-henna-one.vercel.app',
   methods: ["GET","POST","PUT","DELETE"],
   credentials: true
 }));
@@ -35,7 +35,7 @@ mongoose
     //Port Listener
     app.listen(8157, () => {
       try {
-        console.log("The server is running on port 3000");
+        console.log("The server is running on port 8157");
       } catch (err) {
         console.error("The error message is: ", err);
       }
