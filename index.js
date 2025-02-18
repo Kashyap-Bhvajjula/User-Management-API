@@ -9,7 +9,7 @@ const cors = require("cors"); // Import the cors module
 
 // To allow only specific domains (more restrictive)
 app.use(cors({
-  origin: 'https://user-management-henna-one.vercel.app/',
+  origin: 'https://user-management-henna-one.vercel.app',
   methods: ["GET","POST","PUT","DELETE"],
   credentials: true
 }));
